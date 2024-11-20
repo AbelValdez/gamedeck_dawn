@@ -123,6 +123,38 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_imGJyb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/doble_joystick.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_TRRCkT": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/bateria.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -235,6 +267,8 @@
     "rich_text",
     "image_banner_7C4xaG",
     "featured_collection",
+    "image_banner_imGJyb",
+    "image_banner_TRRCkT",
     "collage",
     "video",
     "multicolumn"
