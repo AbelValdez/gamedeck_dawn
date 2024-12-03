@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Pidelo ahora",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://products/purpura",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "shopify://products/purpura",
@@ -34,6 +34,10 @@
       "block_order": [
         "text",
         "button"
+      ],
+      "custom_css": [
+        ".banner__content {align-items: flex-end;}",
+        ".banner__buttons {background-color: #FF1596}"
       ],
       "settings": {
         "image": "shopify://shop_images/home.webp",
