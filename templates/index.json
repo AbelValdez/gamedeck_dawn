@@ -36,8 +36,9 @@
         "button"
       ],
       "custom_css": [
-        ".banner__content {align-items: flex-end;}",
-        ".banner__buttons {background-color: #FF1596}"
+        ".banner__content {align-items: flex-end; }",
+        ".banner__buttons {width: 100%; }",
+        ".button {background-color: #ff1596; color: white; width: 100%;}"
       ],
       "settings": {
         "image": "shopify://shop_images/home.webp",
