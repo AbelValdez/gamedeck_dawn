@@ -154,6 +154,9 @@
     },
     "image_banner_TRRCkT": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 70vh;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/bateria.jpg",
         "image_overlay_opacity": 0,
@@ -166,59 +169,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -282,8 +232,6 @@
     "featured_collection",
     "image_banner_imGJyb",
     "image_banner_TRRCkT",
-    "collage",
-    "video",
     "multicolumn"
   ]
 }
