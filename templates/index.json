@@ -36,7 +36,7 @@
         "button"
       ],
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner {height: 70vh !important;}",
+        "#Banner-template--15852435636287__image_banner {height: 90vh !important;}",
         ".banner__content {align-items: flex-end;}",
         ".banner__buttons {width: 100%;}",
         ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden;}",
@@ -89,7 +89,7 @@
     "image_banner_7C4xaG": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_7C4xaG {height: 70vh;}"
+        "#Banner-template--15852435636287__image_banner_7C4xaG {height: 50vh;}"
       ],
       "settings": {
         "image": "shopify://shop_images/PANTALLA.jpg",
