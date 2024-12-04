@@ -36,7 +36,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner {height: 60vh}",
+        ".banner {height: 50vh;}",
         ".banner__content {align-items: flex-end;}",
         ".banner__buttons {width: 100%;}",
         ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden;}",
