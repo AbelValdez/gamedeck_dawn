@@ -136,7 +136,7 @@
     "image_banner_imGJyb": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_imGJyb {height: 70vh;}"
+        "#Banner-template--15852435636287__image_banner_imGJyb {height: 50vh;}"
       ],
       "settings": {
         "image": "shopify://shop_images/doble_joystick.jpg",
@@ -155,7 +155,7 @@
     "image_banner_TRRCkT": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 70vh;}"
+        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 50vh;}"
       ],
       "settings": {
         "image": "shopify://shop_images/bateria.jpg",
