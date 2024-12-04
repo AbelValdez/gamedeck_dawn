@@ -36,7 +36,7 @@
         "button"
       ],
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner {height: 90vh !important;}",
+        "#Banner-template--15852435636287__image_banner {height: 80vh !important;}",
         ".banner__content {align-items: flex-end;}",
         ".banner__buttons {width: 100%;}",
         ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden;}",
