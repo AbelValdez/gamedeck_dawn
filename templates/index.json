@@ -88,6 +88,9 @@
     },
     "image_banner_7C4xaG": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_7C4xaG {height: 70vh}"
+      ],
       "settings": {
         "image": "shopify://shop_images/PANTALLA.jpg",
         "image_overlay_opacity": 0,
