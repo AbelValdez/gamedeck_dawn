@@ -90,6 +90,40 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_f9A8Vz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HanJE9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pantalla de alta resolución",
+            "heading_size": "h1"
+          }
+        },
+        "text_nMpxz8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Disfruta de una experiencia visual inigualable con la pantalla IPS de 3.5 pulgadas. Su resolución de 640x480 garantiza gráficos nítidos, colores vibrantes y detalles impresionantes, ideal para llevar tu entretenimiento al siguiente nivel.</p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HanJE9",
+        "text_nMpxz8"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 40px; font-weight: 700; line-height: 48.41px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
+        ".rich-text__text {font-size: 20px; font-weight: 400; line-height: 26px; letter-spacing: -0.01em; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_7C4xaG": {
       "type": "image-banner",
       "custom_css": [
@@ -233,6 +267,7 @@
     "image_banner",
     "rich_text",
     "image_banner_7C4xaG",
+    "rich_text_f9A8Vz",
     "featured_collection",
     "image_banner_imGJyb",
     "image_banner_TRRCkT",
