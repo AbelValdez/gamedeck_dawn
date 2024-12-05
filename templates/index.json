@@ -196,6 +196,25 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_TRRCkT": {
+      "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bateria.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -218,29 +237,10 @@
         "show_vendor": true,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 28,
+        "padding_top": 32,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_TRRCkT": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 50vh;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/bateria.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "multicolumn": {
