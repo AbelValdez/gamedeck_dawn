@@ -69,13 +69,17 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Disfruta de 15,000 juegos con 21 emuladores, incluidos <strong>NG, NES, SNES, PS1, PSP, N64</strong> y más. Su pantalla IPS de 3.5 pulgadas ofrece una calidad de imagen excepcional, haciendo que cada juego sea más vibrante y nítido. La consola portátil definitiva para revivir tus clásicos favoritos en cualquier momento.</p><p></p><p></p><p></p><p></p><p></p>"
+            "text": "<p>Disfruta de más <strong>15,000</strong> juegos con 21 emuladores como <strong>NG, NES, SNES, PS1, PSP, N64</strong> y más. Su pantalla IPS de 3.5 pulgadas ofrece una calidad de imagen excepcional, haciendo cada juego más vibrante y nítido. La consola portátil definitiva para revivir tus clásicos favoritos en cualquier momento.</p><p></p><p></p><p></p><p></p><p></p>"
           }
         }
       },
       "block_order": [
         "heading",
         "text"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 40px; font-weight: 700; line-height: 48.41px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
+        ".rich-text__text {font-size: 20px; font-weight: 400; line-height: 26px; letter-spacing: -0.01em; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}"
       ],
       "settings": {
         "desktop_content_position": "center",
