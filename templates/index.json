@@ -90,6 +90,25 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_7C4xaG": {
+      "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_7C4xaG {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/PANTALLA.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_f9A8Vz": {
       "type": "rich-text",
       "blocks": {
@@ -124,13 +143,47 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_7C4xaG": {
-      "type": "image-banner",
+    "rich_text_3zxHTK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qtcdzU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Potente capacidad de almacenamiento",
+            "heading_size": "h1"
+          }
+        },
+        "text_HiDLz9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con 64 GB, el RG35S Plus te asegura espacio de sobra para toda tu colección de juegos.</p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qtcdzU",
+        "text_HiDLz9"
+      ],
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_7C4xaG {height: 50vh;}"
+        ".rich-text__heading {font-size: 40px; font-weight: 700; line-height: 48.41px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
+        ".rich-text__text {font-size: 20px; font-weight: 400; line-height: 26px; letter-spacing: -0.01em; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/PANTALLA.jpg",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_imGJyb": {
+      "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_imGJyb {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/doble_joystick.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -169,25 +222,6 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_imGJyb": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_imGJyb {height: 50vh;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/doble_joystick.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "image_banner_TRRCkT": {
@@ -268,8 +302,9 @@
     "rich_text",
     "image_banner_7C4xaG",
     "rich_text_f9A8Vz",
-    "featured_collection",
+    "rich_text_3zxHTK",
     "image_banner_imGJyb",
+    "featured_collection",
     "image_banner_TRRCkT",
     "multicolumn"
   ]
