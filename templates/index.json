@@ -240,7 +240,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -254,7 +254,7 @@
     "rich_text_f9A8Vz",
     "image_banner_imGJyb",
     "rich_text_3zxHTK",
-    "image_banner_TRRCkT",
-    "featured_collection_zkaHjH"
+    "featured_collection_zkaHjH",
+    "image_banner_TRRCkT"
   ]
 }
