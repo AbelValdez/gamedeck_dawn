@@ -143,6 +143,25 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_imGJyb": {
+      "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_imGJyb {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/doble_joystick.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_3zxHTK": {
       "type": "rich-text",
       "blocks": {
@@ -175,25 +194,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
-      }
-    },
-    "image_banner_imGJyb": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_imGJyb {height: 50vh;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/doble_joystick.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -302,10 +302,10 @@
     "rich_text",
     "image_banner_7C4xaG",
     "rich_text_f9A8Vz",
-    "rich_text_3zxHTK",
     "image_banner_imGJyb",
-    "featured_collection",
+    "rich_text_3zxHTK",
     "image_banner_TRRCkT",
+    "featured_collection",
     "multicolumn"
   ]
 }
