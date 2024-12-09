@@ -316,6 +316,10 @@
         "column_mPPxHg",
         "column_YTjFM9"
       ],
+      "custom_css": [
+        ".multicolumn-card-spacing {padding-top: 0; margin-left: 0; margin-right: 0px}",
+        ".media .media--transparent media--adapt {padding-bottom: 82% !important;}"
+      ],
       "settings": {
         "title": "Reseñas",
         "heading_size": "h1",
