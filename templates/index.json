@@ -281,8 +281,19 @@
         "column_ANCyLz": {
           "type": "column",
           "settings": {
-            "title": "Columna",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "image": "shopify://shop_images/Review_2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mPPxHg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Review_1.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -290,8 +301,9 @@
         "column_YTjFM9": {
           "type": "column",
           "settings": {
-            "title": "Columna",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "image": "shopify://shop_images/Review_4.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -301,6 +313,7 @@
         "column_yyHN7y",
         "column_mR3DKn",
         "column_ANCyLz",
+        "column_mPPxHg",
         "column_YTjFM9"
       ],
       "settings": {
