@@ -258,16 +258,6 @@
     "multicolumn_6yWwqF": {
       "type": "multicolumn",
       "blocks": {
-        "column_yyHN7y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Overall_Rating.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_mR3DKn": {
           "type": "column",
           "settings": {
@@ -310,15 +300,14 @@
         }
       },
       "block_order": [
-        "column_yyHN7y",
         "column_mR3DKn",
         "column_ANCyLz",
         "column_mPPxHg",
         "column_YTjFM9"
       ],
       "custom_css": [
-        ".multicolumn-card-spacing {padding-top: 0; margin-left: 0; margin-right: 0px}",
-        ".media .media--transparent media--adapt {padding-bottom: 82% !important;}"
+        ".multicolumn-card-spacing {padding-top: 0; margin-left: 0; margin-right: 0px;}",
+        ".media {padding-bottom: 82% !important;}"
       ],
       "settings": {
         "title": "Reseñas",
