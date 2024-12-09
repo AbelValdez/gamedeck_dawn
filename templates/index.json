@@ -249,62 +249,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_TRRCkT": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_TRRCkT {height: 50vh;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/bateria.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_wk4A97": {
-      "type": "image-banner",
-      "blocks": {
-        "text_bgnbKD": {
-          "type": "text",
-          "settings": {
-            "text": "Ofrece a los clientes información sobre las imágenes del banner o el contenido de la plantilla.",
-            "text_style": "body"
-          }
-        },
-        "heading_yc3RaH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Banner de imagen",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "text_bgnbKD",
-        "heading_yc3RaH"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/PANTALLA.jpg",
-        "image_2": "shopify://shop_images/game_deck_BG_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -316,8 +260,6 @@
     "rich_text_3zxHTK",
     "image_banner_Vzdfjh",
     "rich_text_ttnCTj",
-    "featured_collection_zkaHjH",
-    "image_banner_TRRCkT",
-    "image_banner_wk4A97"
+    "featured_collection_zkaHjH"
   ]
 }
