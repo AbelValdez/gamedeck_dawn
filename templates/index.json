@@ -254,6 +254,71 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_6yWwqF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yyHN7y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Overall_Rating.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mR3DKn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Review_e969d962-7e10-42f6-bb53-4467f36b150b.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ANCyLz": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YTjFM9": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yyHN7y",
+        "column_mR3DKn",
+        "column_ANCyLz",
+        "column_YTjFM9"
+      ],
+      "settings": {
+        "title": "Reseñas",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Etiqueta de botón",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -265,6 +330,7 @@
     "rich_text_3zxHTK",
     "image_banner_Vzdfjh",
     "rich_text_ttnCTj",
-    "featured_collection_zkaHjH"
+    "featured_collection_zkaHjH",
+    "multicolumn_6yWwqF"
   ]
 }
