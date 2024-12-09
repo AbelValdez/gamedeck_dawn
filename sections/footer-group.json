@@ -19,8 +19,8 @@
       "settings": {
         "custom_liquid": "<div class=\"banner\">\n<img src=\"//gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=3840\" alt=\"\" srcset=\"//gamedeck.mx/cdn/shop/files/Group_32.png.png?v=1733781494&amp;width=375 375w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=550 550w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=750 750w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=1100 1100w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=1500 1500w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=1780 1780w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=2000 2000w, //gamedeck.mx/cdn/shop/files/RGroup_32.png?v=1733781494&amp;width=3000 3000w, //gamedeck.mx/cdn/shop/files/Group_32.png?v=1733781494&amp;width=3840 3840w\" width=\"806\" height=\"365.99999999999994\" sizes=\"100vw\" fetchpriority=\"auto\">\n</div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "footer": {
