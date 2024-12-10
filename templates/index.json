@@ -362,6 +362,9 @@
     },
     "image_banner_rwtFcY": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_rwtFcY {width:90%; margin-left: 5%;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Overall_Rating.png",
         "image_overlay_opacity": 0,
