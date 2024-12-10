@@ -392,5 +392,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media (min-width: 600px) {body {width: 60%; margin: auto; }}"
+    ]
   }
 }
