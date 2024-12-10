@@ -395,7 +395,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media (min-width: 600px) {body {width: 50%; margin: auto; } .banner__content img {height: auto; }}"
+      "@media (min-width: 600px) {body {width: 50%; margin: auto; } .banner__content {align-items: flex-end; height: 90vh; } .banner__content img {}}"
     ]
   }
 }
