@@ -363,7 +363,7 @@
     "image_banner_rwtFcY": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_rwtFcY {width:90%; margin-left: 5%;}"
+        "#Banner-template--15852435636287__image_banner_rwtFcY {width: 90%; margin: 5%;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Overall_Rating.png",
@@ -381,6 +381,9 @@
     },
     "image_banner_KyaiJf": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_KyaiJf {width: 90%; margin: 5%;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Review-1.png",
         "image_overlay_opacity": 0,
@@ -397,6 +400,9 @@
     },
     "image_banner_dyerpP": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_dyerpP {width: 90%; margin: 5%;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Review_4.png",
         "image_overlay_opacity": 0,
@@ -413,6 +419,9 @@
     },
     "image_banner_fmERQU": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_fmERQU {width: 90%; margin: 5%;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Review_3.png",
         "image_overlay_opacity": 0,
@@ -429,6 +438,9 @@
     },
     "image_banner_gqXyYi": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--15852435636287__image_banner_gqXyYi{width: 90%; margin: 5%;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Review-4.png",
         "image_overlay_opacity": 0,
