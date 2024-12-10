@@ -40,7 +40,8 @@
         ".banner__content {align-items: flex-end;}",
         ".banner__buttons {width: 100%;}",
         ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden; font-size: 20px; font-weight: 700; line-height: 24.2px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
-        ".button:after {box-shadow: none !important;}"
+        ".button:after {box-shadow: none !important;}",
+        "@media (min-width: 600px) {.banner__content {height: 93vh;}}"
       ],
       "settings": {
         "image": "shopify://shop_images/home.webp",
@@ -439,7 +440,7 @@
     "image_banner_gqXyYi": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--15852435636287__image_banner_gqXyYi{width: 90%; margin: 5%;}"
+        "#Banner-template--15852435636287__image_banner_gqXyYi {width: 90%; margin: 5%;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Review-4.png",
