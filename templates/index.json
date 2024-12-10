@@ -261,7 +261,7 @@
         "column_mR3DKn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Review_e969d962-7e10-42f6-bb53-4467f36b150b.png",
+            "image": "shopify://shop_images/Review-1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -305,6 +305,7 @@
         "column_mPPxHg",
         "column_YTjFM9"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card-spacing {padding-top: 0; margin-left: 0; margin-right: 0px;}",
         ".media {padding-bottom: 82% !important;}"
@@ -325,6 +326,119 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_jFpBJ3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EBLpjc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reseñas",
+            "heading_size": "h0"
+          }
+        },
+        "text_Y3WFbT": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EBLpjc",
+        "text_Y3WFbT"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 38px; font-weight: 700; line-height: 48.41px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_rwtFcY": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Overall_Rating.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_KyaiJf": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Review-1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_dyerpP": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Review_4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_fmERQU": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Review_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_gqXyYi": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Review-4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -337,6 +451,12 @@
     "image_banner_Vzdfjh",
     "rich_text_ttnCTj",
     "featured_collection_zkaHjH",
-    "multicolumn_6yWwqF"
+    "multicolumn_6yWwqF",
+    "rich_text_jFpBJ3",
+    "image_banner_rwtFcY",
+    "image_banner_KyaiJf",
+    "image_banner_dyerpP",
+    "image_banner_fmERQU",
+    "image_banner_gqXyYi"
   ]
 }
