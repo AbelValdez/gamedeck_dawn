@@ -146,8 +146,8 @@
           "text": "#121212",
           "button": "#ff1596",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#ff1596",
+          "shadow": "#ff1596"
         }
       },
       "scheme-2": {
