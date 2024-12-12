@@ -30,8 +30,15 @@
             "text_style": "subtitle"
           }
         },
+        "custom_liquid_3JXWB4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .price-container{\n    display:flex;\n    justfy-content: center;\n  }\n  .promo{\n     color: #be0027;\n     font-size: 28px;\n   }\n.symbol{\n font-size:12px\n}\n. price{\n  font-size: 25px;\n}\n</style>\n\n<div class=\"price-container\">\n<div>\n<span class=\"promo\">-55%<span>\n</div>\n<div classs=\"price-container\">\n<span>$</span>\n<span>1800<span>\n</div>\n</div>"
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -103,6 +110,7 @@
         "vendor",
         "title",
         "caption",
+        "custom_liquid_3JXWB4",
         "price",
         "variant_picker",
         "quantity_selector",
