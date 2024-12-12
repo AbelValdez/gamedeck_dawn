@@ -114,6 +114,9 @@
         "collapsible-row-3",
         "share"
       ],
+      "custom_css": [
+        "#ProductSubmitButton-template--15852435767359__main {background-color: rgb(var(--color-button-text)); color: white;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
