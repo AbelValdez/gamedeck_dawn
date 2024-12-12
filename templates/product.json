@@ -115,7 +115,10 @@
         "share"
       ],
       "custom_css": [
-        "#ProductSubmitButton-template--15852435767359__main {background-color: rgb(var(--color-button-text)); color: white;}"
+        "#ProductSubmitButton-template--15852435767359__main {background-color: rgb(var(--color-button-text)); color: white;}",
+        ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden; font-size: 16px; font-weight: 700; line-height: 24.2px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
+        ".button:after {box-shadow: none !important;}",
+        "@media (min-width: 600px) {.banner__content {height: 93vh; }}"
       ],
       "settings": {
         "enable_sticky_info": true,
