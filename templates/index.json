@@ -60,8 +60,10 @@
     "featured_collection_zkaHjH": {
       "type": "featured-collection",
       "custom_css": [
-        ".quick-add__submit {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden; font-size: 12px; font-weight: 700; line-height: 24.2px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
-        ".card__inner.color-scheme-1 {margin: auto; width: 80%; margin-top: 20px;}"
+        ".quick-add__submit {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; font-size: 12px; font-weight: 700;}",
+        ".card__inner.color-scheme-1 {margin: auto; width: 80%; margin-top: 20px;}",
+        ".card:not(.ratio) {flex-direction: row;}",
+        ".card__content {margin-left: 5px;}"
       ],
       "settings": {
         "title": "<strong>Elige tu color</strong>",
@@ -73,7 +75,7 @@
         "products_to_show": 4,
         "columns_desktop": 1,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "",
