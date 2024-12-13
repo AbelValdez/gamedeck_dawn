@@ -122,7 +122,6 @@
     "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
-    "enable_quick_add": true,
     "cart_drawer_collection": "",
     "sections": {
       "main-password-header": {
