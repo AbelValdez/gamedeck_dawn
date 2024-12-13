@@ -71,7 +71,7 @@
         "description_style": "body",
         "collection": "gaming",
         "products_to_show": 4,
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
