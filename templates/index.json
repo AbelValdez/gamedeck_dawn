@@ -230,6 +230,9 @@
     },
     "featured_collection_zkaHjH": {
       "type": "featured-collection",
+      "custom_css": [
+        ".quick-add__submit {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden; font-size: 12px; font-weight: 700; line-height: 24.2px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}"
+      ],
       "settings": {
         "title": "<strong>Elige tu color</strong>",
         "heading_size": "h0",
@@ -250,7 +253,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
