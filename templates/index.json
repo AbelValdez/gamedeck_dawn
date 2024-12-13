@@ -41,7 +41,7 @@
         ".banner__buttons {width: 100%;}",
         ".button {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; overflow: hidden; font-size: 20px; font-weight: 700; line-height: 24.2px; text-align: left; text-underline-position: from-font; text-decoration-skip-ink: none;}",
         ".button:after {box-shadow: none !important;}",
-        "@media (min-width: 600px) {.banner__content {height: 93vh;}}"
+        "@media (min-width: 600px) {.banner__content {height: 93vh; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/home.webp",
@@ -249,8 +249,8 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
+        "quick_add": "standard",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
