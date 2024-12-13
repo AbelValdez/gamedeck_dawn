@@ -193,10 +193,6 @@
   {% if section.settings.image_shape == 'arch' %}
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
-  <form action="/cart/add" method="post" class="quick-add-form">
-  <input type="hidden" name="id" value="{{ product.variants[0].id }}">
-  <button type="submit" class="quick-add-button">Quick Add</button>
-</form>
 </div>
 
 {% schema %}
