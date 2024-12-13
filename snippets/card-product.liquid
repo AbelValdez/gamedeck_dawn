@@ -605,6 +605,16 @@
       </div>
       <div class="card__content">
         <div class="card__information">
+                      <div class="price-container">
+              <div>
+                <span class="promo">-55%</span>
+              </div>
+              <div>
+                <span class="symbol">$</span>
+                <span class="prices">1800 </span>
+                <span class="currency">mxn </span>
+              </div>
+            </div>
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
@@ -617,17 +627,6 @@
             {%- endif -%}
             {% render 'price', placeholder: placeholder, show_compare_at_price: true %}
             <span class="offer-box">Oferta Limitada</span>
-
-            <div class="price-container">
-              <div>
-                <span class="promo">-55%</span>
-              </div>
-              <div>
-                <span class="symbol">$</span>
-                <span class="prices">1800 </span>
-                <span class="currency">mxn </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
