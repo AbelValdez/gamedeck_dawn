@@ -64,7 +64,8 @@
         ".card__inner.color-scheme-1 {margin: auto; width: 80%; margin-top: 40px;}",
         ".card:not(.ratio) {flex-direction: row;}",
         ".card__content {margin-left: 5px;}",
-        ".button:after{box-shadow: none;}"
+        ".button:after {box-shadow: none;}",
+        ".price__container{display: none;}"
       ],
       "settings": {
         "title": "<strong>Elige tu color</strong>",
