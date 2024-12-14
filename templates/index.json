@@ -60,7 +60,7 @@
     "featured_collection_zkaHjH": {
       "type": "featured-collection",
       "custom_css": [
-        ".quick-add__submit {background-color: #FF8215; color: white; width: 100%; border-radius: 10px; font-size: 12px; font-weight: 700;}",
+        ".quick-add__submit {background-color: #ff1596; color: white; width: 100%; border-radius: 10px; font-size: 12px; font-weight: 700;}",
         ".card__inner.color-scheme-1 {margin: auto; width: 80%; margin-top: 40px;}",
         ".card:not(.ratio) {flex-direction: row;}",
         ".card__content {margin-left: 5px;}",
