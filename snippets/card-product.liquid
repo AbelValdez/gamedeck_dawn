@@ -164,7 +164,14 @@
           <h2 style="
     padding-bottom: 0;!i;!;
     margin-bottom: 0;
-">{{ card_product.title | escape }}</h2>
+"><a
+              href="{{ card_product.url }}"
+              id="CardLink-{{ section_id }}-{{ card_product.id }}"
+              class="full-unstyled-link"
+              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+            >
+              {{ card_product.title | escape }}
+            </a></h2>
           <span  style="margin-top: -10px">Consola Portátil GameDeck</span>
           <style>
   .price-container{
