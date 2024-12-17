@@ -416,7 +416,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media (min-width: 600px) {body {width: 50%; margin: auto; }}"
+      "@media (min-width: 600px) {body {width: 50%; margin: auto; }}",
+      "._gridItem_stahb_172 ._imageLoaded_stahb_23{height: 50vh;}"
     ]
   }
 }
