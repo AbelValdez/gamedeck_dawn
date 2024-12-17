@@ -17,14 +17,14 @@
         "announcement_TPNtLE": {
           "type": "announcement",
           "settings": {
-            "text": "Reclama tu descuento 10% OFF",
+            "text": "Reclama tu cupón 10% OFF",
             "link": ""
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Codigo Navideño: GDOFF10",
+            "text": "Código Navideño: GDOFF10",
             "link": ""
           }
         }
