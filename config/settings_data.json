@@ -155,7 +155,7 @@
       },
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
@@ -417,7 +417,7 @@
   "platform_customizations": {
     "custom_css": [
       "@media (min-width: 600px) {body {width: 50%; margin: auto; }}",
-      "._gridItem_stahb_172 ._imageLoaded_stahb_23{height: 50vh;}"
+      "._gridItem_stahb_172 ._imageLoaded_stahb_23 {height: 50vh;}"
     ]
   }
 }
