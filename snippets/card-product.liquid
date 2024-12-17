@@ -221,7 +221,7 @@
 
             <div class="price-container">
               <div>
-                <span class="promo">-55%</span>
+                <span class="promo">-{{ card_product.price | divided_by: card_product.compare_at_price | times: 100 }} </span>
               </div>
               <div>
                 <span class="prices"> {{ card_product.price | money  }} </span>
