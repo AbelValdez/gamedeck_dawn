@@ -646,12 +646,6 @@
     endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
-    <script>
-      function navigateRoute(url) {
-        console.log("URL", url);
-        window.location.href = url;
-      }
-    </script>
     <div
       class="
         card card--{{ settings.card_style }}
@@ -661,6 +655,12 @@
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
+       <script>
+          function navigateRoute(url) {
+            console.log("URL", url);
+            window.location.href = url;
+          }
+        </script>
       <div
         onclick="navigateRoute('{{ card_product.url }}')"
         class="card__inner{% if settings.card_style == 'standard' %} color-{{ settings.card_color_scheme }} gradient{% endif %} ratio"
