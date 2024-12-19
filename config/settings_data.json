@@ -157,6 +157,11 @@
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": true,
         "settings": {}
+      },
+      "11704864806307981657": {
+        "type": "shopify://apps/kueski-pay/blocks/widget-embed/7d6d94e0-6ce7-439c-b75d-704e092d3cb9",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
