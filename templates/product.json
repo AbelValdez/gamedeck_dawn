@@ -36,6 +36,14 @@
             "custom_liquid": "<style>\n  .price-container{\n   margin-top: -3px;\n   margin-bottom: -8px; \n    display:flex;\n  }\n  .promo{\n     color: #be0027;\n     font-size: 26px;\n   }\n.symbol {\n font-size:20px;\n margin-left: 5px;\n\n}\n.prices {\n margin-left:-5px;\n font-size: 26px;\n font-weight:500;\n}\n.currency{\n font-weight:600;\n margin-left:-5px;\n}\n.offer-box{\n background-color: #be0027;\n padding: 3px;\n border-radius: 8px;\n color: white;\n font-weight: 500;\n}\n</style>\n\n\n <span class=\"offer-box\">Oferta Limitada</span>\n\n<div class=\"price-container\">\n<div>\n<span class=\"promo\">-55%<span>\n</div>\n<div>\n<span class=\"symbol\">$</span>\n<span class=\"prices\">1,499</span>\n<span class=\"currency\">mxn </span>\n</div>\n</div>"
           }
         },
+        "kueski_pay_widget_TkmwaB": {
+          "type": "shopify://apps/kueski-pay/blocks/widget/7d6d94e0-6ce7-439c-b75d-704e092d3cb9",
+          "settings": {
+            "font_size": "14",
+            "text_align": "left",
+            "color_scheme": "black"
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -111,6 +119,7 @@
         "title",
         "caption",
         "custom_liquid_3JXWB4",
+        "kueski_pay_widget_TkmwaB",
         "price",
         "variant_picker",
         "quantity_selector",
