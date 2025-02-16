@@ -371,87 +371,8 @@
     },
     "image_banner_rwtFcY": {
       "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_rwtFcY {width: 90%; margin: 5%;}"
-      ],
       "settings": {
         "image": "shopify://shop_images/Overall_Rating.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_KyaiJf": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_KyaiJf {width: 90%; margin: 5%;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Review-1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_dyerpP": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_dyerpP {width: 90%; margin: 5%;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Review_4.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_fmERQU": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_fmERQU {width: 90%; margin: 5%;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Review_3.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_gqXyYi": {
-      "type": "image-banner",
-      "custom_css": [
-        "#Banner-template--15852435636287__image_banner_gqXyYi {width: 90%; margin: 5%;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Review-4.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -472,6 +393,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_8h3p9t": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"overall-rating\">\n    <div class=\"rating-header\">\n        <span class=\"rating-number\">4.8</span>\n        <div class=\"rating-stars\">\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star half\">&#9733;</span>\n        </div>\n    </div>\n    <p class=\"review-count\">Basado en 1,235 reseñas</p>\n    <div class=\"rating-breakdown\">\n        <div class=\"rating-bar\">\n            <span>5 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 80%;\"></div></div>\n            <span>80%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>4 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 15%;\"></div></div>\n            <span>15%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>3 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 3%;\"></div></div>\n            <span>3%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>2 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>1 estrella</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n    </div>\n</div>\n\n<style>\n.overall-rating {\n    background: #fff;\n    padding: 20px;\n    border-radius: 10px;\n    text-align: center;\n    font-family: Arial, sans-serif;\n    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\n    max-width: 400px;\n    margin: auto;\n}\n.rating-header {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n}\n.rating-number {\n    font-size: 32px;\n    font-weight: bold;\n    color: #333;\n}\n.rating-stars {\n    color: #f5a623;\n    font-size: 24px;\n}\n.star {\n    display: inline-block;\n}\n.star.half {\n    position: relative;\n}\n.star.half::after {\n    content: '\\2605';\n    color: #f5a623;\n    position: absolute;\n    left: 0;\n    width: 50%;\n    overflow: hidden;\n}\n.review-count {\n    font-size: 14px;\n    color: #777;\n    margin-top: 5px;\n}\n.rating-breakdown {\n    margin-top: 10px;\n    text-align: left;\n}\n.rating-bar {\n    display: flex;\n    align-items: center;\n    font-size: 14px;\n    color: #555;\n    gap: 10px;\n    margin-bottom: 5px;\n}\n.bar {\n    flex: 1;\n    height: 10px;\n    background: #eee;\n    border-radius: 5px;\n    position: relative;\n    overflow: hidden;\n}\n.fill {\n    height: 100%;\n    background: #f5a623;\n    transition: width 0.5s ease-in-out;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    document.querySelectorAll(\".fill\").forEach(function(bar) {\n        let width = bar.style.width;\n        bar.style.width = \"0\";\n        setTimeout(() => { bar.style.width = width; }, 300);\n    });\n});\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -487,10 +417,7 @@
     "multicolumn_6yWwqF",
     "rich_text_jFpBJ3",
     "image_banner_rwtFcY",
-    "image_banner_KyaiJf",
-    "image_banner_dyerpP",
-    "image_banner_fmERQU",
-    "image_banner_gqXyYi",
-    "custom_liquid_DNcJwQ"
+    "custom_liquid_DNcJwQ",
+    "custom_liquid_8h3p9t"
   ]
 }
