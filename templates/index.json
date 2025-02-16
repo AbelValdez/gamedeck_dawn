@@ -463,6 +463,15 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_DNcJwQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"review-card\">\n    <div class=\"review-header\">\n        <div class=\"review-avatar\">\n            <svg width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <circle cx=\"12\" cy=\"8\" r=\"4\" fill=\"#ccc\"/>\n                <path d=\"M4 20c0-4 4-6 8-6s8 2 8 6\" fill=\"#ccc\"/>\n            </svg>\n        </div>\n        <div class=\"review-info\">\n            <strong>Mario D.</strong>\n            <span class=\"review-date\">8 Diciembre, 2024</span>\n        </div>\n    </div>\n    <div class=\"review-stars\">\n        {% for i in (1..5) %}\n            <span class=\"star\">&#9733;</span>\n        {% endfor %}\n    </div>\n    <p class=\"review-text\">\n        Definitivamente. Por el precio, es una excelente compra para cualquier amante de los juegos. Muchos de los juegos que vienen son difíciles de conseguir y aquí los tienes todos.\n    </p>\n</div>\n\n<style>\n.review-card {\n    background: #f9f9f9;\n    border-radius: 8px;\n    padding: 15px;\n    max-width: 400px;\n    font-family: Arial, sans-serif;\n    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\nmargin: auto;\n}\n.review-header {\n    display: flex;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.review-avatar {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    overflow: hidden;\n    margin-right: 10px;\n}\n.review-info {\n    display: flex;\n    flex-direction: column;\n}\n.review-date {\n    font-size: 12px;\n    color: #888;\n}\n.review-stars {\n    color: #f5a623;\n    font-size: 18px;\n    margin-bottom: 10px;\n}\n.star {\n    margin-right: 3px;\n}\n.review-text {\n    font-size: 14px;\n    color: #333;\n    line-height: 1.4;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -481,6 +490,7 @@
     "image_banner_KyaiJf",
     "image_banner_dyerpP",
     "image_banner_fmERQU",
-    "image_banner_gqXyYi"
+    "image_banner_gqXyYi",
+    "custom_liquid_DNcJwQ"
   ]
 }
