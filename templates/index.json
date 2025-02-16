@@ -306,13 +306,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_E3RGGb": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_mR3DKn",
         "column_ANCyLz",
         "column_mPPxHg",
-        "column_YTjFM9"
+        "column_YTjFM9",
+        "column_E3RGGb"
       ],
       "disabled": true,
       "custom_css": [
@@ -369,35 +379,19 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_rwtFcY": {
-      "type": "image-banner",
+    "custom_liquid_8h3p9t": {
+      "type": "custom-liquid",
       "settings": {
-        "image": "shopify://shop_images/Overall_Rating.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "custom_liquid": "<div class=\"overall-rating\">\n    <div class=\"rating-header\">\n        <span class=\"rating-number\">4.8</span>\n        <div class=\"rating-stars\">\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star half\">&#9733;</span>\n        </div>\n    </div>\n    <p class=\"review-count\">Basado en 1,235 reseñas</p>\n    <div class=\"rating-breakdown\">\n        <div class=\"rating-bar\">\n            <span>5 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 80%;\"></div></div>\n            <span>80%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>4 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 15%;\"></div></div>\n            <span>15%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>3 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 3%;\"></div></div>\n            <span>3%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>2 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>1 estrella</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n    </div>\n</div>\n\n<style>\n.overall-rating {\n    background: #fff;\n    padding: 20px;\n    border-radius: 10px;\n    text-align: center;\n    font-family: Arial, sans-serif;\n    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\n    max-width: 400px;\n    margin: auto;\n}\n.rating-header {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n}\n.rating-number {\n    font-size: 32px;\n    font-weight: bold;\n    color: #333;\n}\n.rating-stars {\n    color: #f5a623;\n    font-size: 24px;\n}\n.star {\n    display: inline-block;\n}\n.star.half {\n    position: relative;\n}\n.star.half::after {\n    content: '\\2605';\n    color: #f5a623;\n    position: absolute;\n    left: 0;\n    width: 50%;\n    overflow: hidden;\n}\n.review-count {\n    font-size: 14px;\n    color: #777;\n    margin-top: 5px;\n}\n.rating-breakdown {\n    margin-top: 10px;\n    text-align: left;\n}\n.rating-bar {\n    display: flex;\n    align-items: center;\n    font-size: 14px;\n    color: #555;\n    gap: 10px;\n    margin-bottom: 5px;\n}\n.bar {\n    flex: 1;\n    height: 10px;\n    background: #eee;\n    border-radius: 5px;\n    position: relative;\n    overflow: hidden;\n}\n.fill {\n    height: 100%;\n    background: #f5a623;\n    transition: width 0.5s ease-in-out;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    document.querySelectorAll(\".fill\").forEach(function(bar) {\n        let width = bar.style.width;\n        bar.style.width = \"0\";\n        setTimeout(() => { bar.style.width = width; }, 300);\n    });\n});\n</script>",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_DNcJwQ": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"reviews-container\">\n    {% assign reviews = \"Mario D.|8 Diciembre, 2024|5|Definitivamente. Por el precio, es una excelente compra para cualquier amante de los juegos. Muchos de los juegos que vienen son difíciles de conseguir y aquí los tienes todos.;\n                     Laura S.|15 Enero, 2025|4.5|Muy buena compra, la calidad es excelente y los juegos funcionan sin problema. Solo me hubiera gustado una mejor presentación.;\n                     Carlos M.|20 Febrero, 2025|4|Buen producto en general, aunque algunos juegos no me interesan tanto. Aún así, vale la pena.;\n                     Andrea P.|5 Marzo, 2025|5|Increíble, justo lo que estaba buscando. Gran variedad de juegos y fácil de usar.;\n                     Roberto G.|12 Abril, 2025|4.5|Muy recomendable, aunque la entrega tardó un poco más de lo esperado.\" | split: \";\" %}\n\n    {% for review in reviews %}\n        {% assign review_data = review | split: \"|\" %}\n        <div class=\"review-card\">\n            <div class=\"review-header\">\n                <div class=\"review-avatar\">\n                    <svg width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                        <circle cx=\"12\" cy=\"8\" r=\"4\" fill=\"#ccc\"/>\n                        <path d=\"M4 20c0-4 4-6 8-6s8 2 8 6\" fill=\"#ccc\"/>\n                    </svg>\n                </div>\n                <div class=\"review-info\">\n                    <strong>{{ review_data[0] }}</strong>\n                    <span class=\"review-date\">{{ review_data[1] }}</span>\n                </div>\n            </div>\n            <div class=\"review-stars\">\n                {% assign full_stars = review_data[2] | floor %}\n                {% assign has_half_star = false %}\n                {% if review_data[2] contains \".5\" %}\n                    {% assign has_half_star = true %}\n                {% endif %}\n                \n                {% for i in (1..full_stars) %}\n                    <span class=\"star\">&#9733;</span>\n                {% endfor %}\n                \n                {% if has_half_star %}\n                    <span class=\"star half\">&#9733;</span>\n                {% endif %}\n            </div>\n            <p class=\"review-text\">\n                {{ review_data[3] }}\n            </p>\n        </div>\n    {% endfor %}\n</div>\n\n<style>\n.reviews-container {\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n}\n.review-card {\n    margin: auto;\n    background: #f9f9f9;\n    border-radius: 8px;\n    padding: 15px;\n    max-width: 400px;\n    font-family: Arial, sans-serif;\n    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\n}\n.review-header {\n    display: flex;\n    align-items: center;\n    margin-bottom: 10px;\n}\n.review-avatar {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    overflow: hidden;\n    margin-right: 10px;\n}\n.review-info {\n    display: flex;\n    flex-direction: column;\n}\n.review-date {\n    font-size: 12px;\n    color: #888;\n}\n.review-stars {\n    color: #f5a623;\n    font-size: 18px;\n    margin-bottom: 10px;\n}\n.star {\n    margin-right: 3px;\n    display: inline-block;\n}\n.star.half {\n    position: relative;\n}\n.star.half::after {\n    content: '\\2605';\n    position: absolute;\n    left: 0;\n    width: 50%;\n    overflow: hidden;\n    color: #f5a623;\n}\n.review-text {\n    font-size: 14px;\n    color: #333;\n    line-height: 1.4;\n}\n</style>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_8h3p9t": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"overall-rating\">\n    <div class=\"rating-header\">\n        <span class=\"rating-number\">4.8</span>\n        <div class=\"rating-stars\">\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star\">&#9733;</span>\n            <span class=\"star half\">&#9733;</span>\n        </div>\n    </div>\n    <p class=\"review-count\">Basado en 1,235 reseñas</p>\n    <div class=\"rating-breakdown\">\n        <div class=\"rating-bar\">\n            <span>5 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 80%;\"></div></div>\n            <span>80%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>4 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 15%;\"></div></div>\n            <span>15%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>3 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 3%;\"></div></div>\n            <span>3%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>2 estrellas</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n        <div class=\"rating-bar\">\n            <span>1 estrella</span>\n            <div class=\"bar\"><div class=\"fill\" style=\"width: 1%;\"></div></div>\n            <span>1%</span>\n        </div>\n    </div>\n</div>\n\n<style>\n.overall-rating {\n    background: #fff;\n    padding: 20px;\n    border-radius: 10px;\n    text-align: center;\n    font-family: Arial, sans-serif;\n    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);\n    max-width: 400px;\n    margin: auto;\n}\n.rating-header {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n}\n.rating-number {\n    font-size: 32px;\n    font-weight: bold;\n    color: #333;\n}\n.rating-stars {\n    color: #f5a623;\n    font-size: 24px;\n}\n.star {\n    display: inline-block;\n}\n.star.half {\n    position: relative;\n}\n.star.half::after {\n    content: '\\2605';\n    color: #f5a623;\n    position: absolute;\n    left: 0;\n    width: 50%;\n    overflow: hidden;\n}\n.review-count {\n    font-size: 14px;\n    color: #777;\n    margin-top: 5px;\n}\n.rating-breakdown {\n    margin-top: 10px;\n    text-align: left;\n}\n.rating-bar {\n    display: flex;\n    align-items: center;\n    font-size: 14px;\n    color: #555;\n    gap: 10px;\n    margin-bottom: 5px;\n}\n.bar {\n    flex: 1;\n    height: 10px;\n    background: #eee;\n    border-radius: 5px;\n    position: relative;\n    overflow: hidden;\n}\n.fill {\n    height: 100%;\n    background: #f5a623;\n    transition: width 0.5s ease-in-out;\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    document.querySelectorAll(\".fill\").forEach(function(bar) {\n        let width = bar.style.width;\n        bar.style.width = \"0\";\n        setTimeout(() => { bar.style.width = width; }, 300);\n    });\n});\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -416,8 +410,7 @@
     "rich_text_ttnCTj",
     "multicolumn_6yWwqF",
     "rich_text_jFpBJ3",
-    "image_banner_rwtFcY",
-    "custom_liquid_DNcJwQ",
-    "custom_liquid_8h3p9t"
+    "custom_liquid_8h3p9t",
+    "custom_liquid_DNcJwQ"
   ]
 }
