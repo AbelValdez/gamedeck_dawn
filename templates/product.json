@@ -29,6 +29,10 @@
           "type": "title",
           "settings": {}
         },
+        "e120bc58-3dca-4af2-80b7-61e2fe2e921b": {
+          "type": "shopify://apps/kudosi-ali-reviews/blocks/widget-star-rating/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {}
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -133,9 +137,16 @@
             "share_label": "Share"
           }
         },
-        "e120bc58-3dca-4af2-80b7-61e2fe2e921b": {
-          "type": "shopify://apps/kudosi-ali-reviews/blocks/widget-star-rating/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {}
+        "kudosi_ali_reviews_widget_box_zcHkKY": {
+          "type": "shopify://apps/kudosi-ali-reviews/blocks/widget-box/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+            "product": "",
+            "name": "Review Box",
+            "vertical_alignment": "2",
+            "rating_color": "#1F1F1F",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1F1F1F"
+          }
         }
       },
       "block_order": [
@@ -157,7 +168,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "custom_liquid_ztF9hh",
-        "share"
+        "share",
+        "kudosi_ali_reviews_widget_box_zcHkKY"
       ],
       "custom_css": [
         "#ProductSubmitButton-template--15852435767359__main {background-color: rgb(var(--color-button-text)); color: white;}",
